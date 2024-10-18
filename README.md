@@ -7,7 +7,7 @@ More work may be needed to make all utilities work with all options, but it work
 
 See readme.txt for more information about the changes, as well as example command line parameters from the author.
 
-This utility creates very high quality blue noise point sets - much better than dart throwing, mitchell's best candidate, sliced optimal transport, or thresholding a blue noise texture.
+This utility creates very high quality blue noise point sets - much better than dart throwing, mitchell's best candidate, sliced optimal transport, lloyd relaxation, or thresholding a blue noise texture.
 
 Please see [Serial Gaussian Blue Noise Stippling (Eurographics 2024)](https://doi.org/10.2312/cgvc.20241226) for further advancements on this work.
 
