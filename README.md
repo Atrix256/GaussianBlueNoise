@@ -15,7 +15,7 @@ Please see [Serial Gaussian Blue Noise Stippling (Eurographics 2024)](https://do
 
 `./gbn-adaptive taksim-circle.pgm 10000 1000 taksim-circle.png taksim-circle.txt`
 
-Create 10,000 points, using the image **taksim-circle.pgm** as a point density distribution, and use 1,000 steps of iteration.
+Create 10,000 points, using the image **taksim-circle.pgm** as a point density distribution, and use 1,000 steps of iteration. This took 7.5 seconds to run on my machine.
 
 Saves the points as plain text in [taksim-circle.txt](taksim-circle.txt), and taksim-circle.png.
 
