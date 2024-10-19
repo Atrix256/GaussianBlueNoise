@@ -19,6 +19,6 @@ Create 10,000 points, using the image **taksim-circle.pgm** as a point density d
 
 Saves the points as plain text in [taksim-circle.txt](taksim-circle.txt), and taksim-circle.png.
 
-Note: pgm files can be viewed and saved by [GIMP](https://www.gimp.org/downloads/).
+Note: pgm files can be viewed and saved by [GIMP](https://www.gimp.org/downloads/). When exporting from gimp as a .pgm file, choose ASCII instead of Raw to get a text pgm instead of a binary one.  You also need to open the file in a text editor and remove the line near the top that begins with "# Created by GIMP....". Leaving that comment in seems to make the pgm loading code hang.
 
 ![taksim-circle.png](taksim-circle.png)
